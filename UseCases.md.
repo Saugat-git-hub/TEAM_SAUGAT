@@ -1,0 +1,56 @@
+# 📘 Use Cases – Population Reporting System
+
+---
+
+## ✅ Use Case 1: View All Countries by Population
+
+- **Actor**: User
+- **Precondition**: Application is running
+- **Trigger**: User selects "Countries by Population" option
+- **Main Flow**:
+  1. System queries the database for all countries.
+  2. Results are ordered by population (descending).
+  3. Country data is displayed in a table with Code, Name, Continent, Region, Population, Capital.
+- **Postcondition**: User sees a list of countries sorted by population.
+
+---
+
+## ✅ Use Case 2: View Top N Cities by Region
+
+- **Actor**: User
+- **Precondition**: User knows the region and value for N
+- **Trigger**: User inputs region name and number N
+- **Main Flow**:
+  1. System accepts input for region and N.
+  2. Query runs for top N most populated cities in that region.
+  3. Results display city name, country, district, and population.
+- **Postcondition**: User sees a list of top cities in the selected region.
+
+---
+
+## ✅ Use Case 3: Population Breakdown by Continent
+
+- **Actor**: User
+- **Precondition**: Application is running
+- **Trigger**: User selects "Continent Population Breakdown"
+- **Main Flow**:
+  1. System retrieves total population of each continent.
+  2. Calculates number/percentage of people living in cities vs not in cities.
+  3. Displays the results.
+- **Postcondition**: User sees a detailed population summary by continent.
+
+---
+
+## ✅ Use Case 4: View Language Speakers
+
+- **Actor**: User
+- **Precondition**: Application is running
+- **Trigger**: User selects "Language Report"
+- **Main Flow**:
+  1. System queries language data (Chinese, English, Hindi, Spanish, Arabic).
+  2. Calculates speaker counts and percentages of world population.
+  3. Displays report from highest to lowest speaker population.
+- **Postcondition**: User sees language statistics.
+
+
+
