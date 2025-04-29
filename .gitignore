@@ -1,0 +1,48 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# Build Folders (you can clean these up manually)
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored if not committing NuGet packages
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Dotnet tools restore
+.dotnet/tools/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Test results
+TestResults/
+
+# Others
+_ReSharper*/
+*.vs/
